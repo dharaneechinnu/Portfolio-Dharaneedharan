@@ -1,0 +1,56 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 0; /* Adjust padding as needed */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social li {
+    margin-right: 10px; /* Adjust the spacing between social icons */
+  }
+  
+  .social a {
+    text-decoration: none;
+  }
+  
+  .social a:hover {
+    opacity: 0.8; /* Adjust the opacity on hover */
+  }
+  
+  .social svg {
+    color: white; /* Choose your desired icon color */
+    font-size: 20px; /* Adjust the icon size */
+  }
+  
+  /* Media Query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .footer {
+      padding: 15px 0;
+    }
+  
+    .social li {
+      margin-right: 8px;
+    }
+  
+    .social svg {
+      font-size: 18px;
+    }
+  }
+  
+  
+  
+  

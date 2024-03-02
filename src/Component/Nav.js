@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../index.css'
+import './nav.css'
 const Nav = () => {
   const [color,setcolor] = useState(false);
   const changeColor =() => {

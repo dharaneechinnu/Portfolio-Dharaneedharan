@@ -1,0 +1,62 @@
+
+.About-Title {
+    /* Center the title over the image */
+    position: relative;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Additional styling for the title if needed */
+  }
+  
+  
+  .Contents {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px; /* Add padding for better readability */
+    color: white;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    max-width: 90%; /* Adjust maximum width for responsiveness */
+  }
+  
+
+  
+  .About-Title {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .About-Content {
+    font-size: 25px;
+    line-height: 1.6;
+    max-width: 1000px;
+    text-align: justify;
+    margin: 0 auto;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .About-Title {
+      font-size: 20px;
+    }
+  
+    .About-Content {
+      font-size: 14px;
+      max-width: 600px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .About-Title {
+      font-size: 18px;
+    }
+  
+    .About-Content {
+      font-size: 12px;
+      max-width: 400px;
+    }
+  }
+  
+  

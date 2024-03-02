@@ -1,0 +1,80 @@
+
+.skill_full {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .skill {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .stack h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .stack ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+      animation: slideIn 2s ease-in-out; /* Apply animation */
+    transition: 1s;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .stack li {
+    display: inline-block;
+    margin: 0 10px; /* Reduced margin for smaller screens */
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+  }
+  .stack ul :hover{
+    background-color: #2d2d2e8b;
+  
+  }
+  
+  .stack svg {
+    width: 50px; /* Reduced width for smaller screens */
+    height: auto;
+    fill: #fff; /* Adjust the fill color */
+  }
+  
+  .stack p {
+    margin-top: 10px;
+    font-size: 1em; /* Adjusted font size for smaller screens */
+  }
+  
+  /* Media Query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .stack li {
+      margin: 0 5px; /* Further reduced margin for even smaller screens */
+    }
+  
+    .stack svg {
+      width: 20px; /* Further reduced width for even smaller screens */
+    }
+  
+    .stack p {
+      font-size: 0.8em; /* Further adjusted font size for even smaller screens */
+    }
+  }
+  
+  

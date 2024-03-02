@@ -3,7 +3,7 @@ import contact from '../Img/contact.jpg';
 import 'react-toastify/dist/ReactToastify.css';
 import { toast, ToastContainer } from 'react-toastify';
 import Api from '../Api/Api';
-
+import './contact.css'
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

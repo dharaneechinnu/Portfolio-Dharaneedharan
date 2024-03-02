@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaLinkedinIn,FaGithub,FaInstagram } from "react-icons/fa6";
+import './footing.css'
 const Footing = () => {
   return (
     <>
