@@ -64,10 +64,22 @@
     color: #fff;
     border: 2px solid white; /* Adjust the border color */
     border-radius: 5px;
+    justify-content: space-around;
     transition: background-color 0.3s, color 0.3s;
   }
-  
-  
+  .Download-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+ 
+    color: white;
+    border: 2px solid white; /* Adjust the border color */
+    border-radius: 5px;
+    margin-left: 10px;
+    justify-content: space-around;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
   @media screen and (max-width:640px){
     .hero .content h1{
       font-size: 3rem;

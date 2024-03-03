@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import home from '../Img/port1.jpg';
 import './home.css';
 import { useInView } from 'react-intersection-observer';
-
+import resume from '../Img/resume.pdf'
 const Home = () => {
   const { ref: myRef, inView: myElementVisible } = useInView();
 
@@ -33,6 +33,11 @@ const Home = () => {
           </div>
           <div className="btns">
             <a href="#contact" className='btn btn-light'>Contact Me</a>
+            <a href={resume} download="Dharaneedharan Resume" class="Download-btn">
+    Resume 
+   
+</a>
+
           </div>
         </div>
       </div>
