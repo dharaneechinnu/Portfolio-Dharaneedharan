@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import home from '../Img/port1.jpg';
 import './home.css';
 import { useInView } from 'react-intersection-observer';
-import resume from '../Img/resume.pdf'
+import resume from '../Img/resume1.pdf'
 const Home = () => {
   const { ref: myRef, inView: myElementVisible } = useInView();
 
