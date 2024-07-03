@@ -30,7 +30,7 @@ const Project = () => {
               <p>This Pizza App, built with the MERN Stack, features CRUD operations, seamless payment integration, robust email verification, password recovery functionality, and secure JWT token authentication. It offers a comprehensive solution for managing pizza orders and ensuring a smooth user experience from order placement to delivery.</p>
               <div className="project-btns">
                 <a href="https://oibsip-pizza-app.onrender.com/" style={{ color: 'black', textDecoration: 'inherit'}} title='View My Project'>View</a>
-                <a href="https://github.com/dharaneechinnu/" style={{ color: 'black', textDecoration: 'inherit'}} title='View Source Code'>Source</a>
+                <a href="https://github.com/dharaneechinnu/OIBSIP-Frontend" style={{ color: 'black', textDecoration: 'inherit'}} title='View Source Code'>Source</a>
               </div>
             </div>
           </div>
@@ -41,10 +41,26 @@ const Project = () => {
               A job portal with CRUD operations and JWT token integration allows users to create, read, update, and delete job listings while ensuring secure authentication through JWT tokens. It facilitates seamless interaction between job seekers and employers, enabling efficient management of job postings and user credentials with enhanced security measures. </p>
               <div className="project-btns">
                 <a href="https://job-portal-0l2n.onrender.com" style={{ color: 'black', textDecoration: 'inherit'}} title='View My Project'>View</a>
-                <a href="https://github.com/dharaneechinnu/" style={{ color: 'black', textDecoration: 'inherit'}} title='View Source Code'>Source</a>
+                <a href="https://github.com/dharaneechinnu/Job-portal" style={{ color: 'black', textDecoration: 'inherit'}} title='View Source Code'>Source</a>
               </div>
             </div>
           </div>
+
+          <div className="project-card">
+            <h2 className="project-title">HAND🤝FUND</h2>
+            <div className="project-details">
+              <p>
+              
+              This is Hand🤝Fund, a crowdfunding project leveraging blockchain technology. It uses MetaMask for transactions, along with Web3.js, Remix Solidity, and React for the frontend. Hand🤝Fund allows users to create campaigns and donate directly to campaign owners, ensuring transparent fund transactions.
+               </p>
+              
+              <div className="project-btns">
+                <a href="https://hand-fund.onrender.com/" style={{ color: 'black', textDecoration: 'inherit'}} title='View My Project'>View</a>
+                <a href="https://github.com/dharaneechinnu/Hand-Fund" style={{ color: 'black', textDecoration: 'inherit'}} title='View Source Code'>Source</a>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>

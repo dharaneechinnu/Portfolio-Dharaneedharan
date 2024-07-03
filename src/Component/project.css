@@ -3,7 +3,8 @@
   height: 100vh;
   background-color: black;
   color: white;
-  overflow: hidden; /* Prevent overflow */
+  overflow-y:auto ;
+  
 }
 
 .project-heading {
@@ -34,8 +35,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: justify;
   height: 100%;
-  overflow: hidden; /* Prevent overflow */
 }
 
 .project-btns {
@@ -43,7 +44,6 @@
   justify-content: space-between;
   align-items: flex-end; /* Align items to the bottom */
   margin-bottom: 20px;
- 
 }
 
 .project-btns a {
@@ -66,6 +66,17 @@
   .project-container {
     max-width: 90%;
     margin: auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Change to single column layout */
+    overflow-y: auto; /* Enable vertical scroll */
+    display: flex;
+    flex-direction: column; /* Use flex column layout */
+    gap: 20px;
+    padding-bottom: 2rem; /* Adjust bottom padding for better spacing */
+  }
+
+  .project-card {
+    min-width: 100%; /* Ensure each card takes full width */
+    flex: 1 0 auto;
+    margin-bottom: 20px; /* Add margin bottom for spacing between cards */
   }
 }

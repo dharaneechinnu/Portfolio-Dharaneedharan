@@ -24,7 +24,8 @@ const About = () => {
       <div className="Contents" ref={myRef} style={{transform: 'translateY(-20px) translateX(-50%)', opacity: 0 }}>
         <h2 className="About-Title">About Me</h2>
         <p className="About-Content">
-          I'm a MERN stack developer skilled in full-stack web development with MongoDB, Express.js, React, and Node.js. I specialize in creating scalable applications, focusing on clean code and seamless integration of front-end and back-end components. My expertise extends to RESTful API development and real-time applications. From concept to deployment, I contribute to the entire development lifecycle, staying current with the latest trends in the MERN stack ecosystem.
+        
+        I'm a MERN stack and Web3 developer skilled in full-stack web development with MongoDB, Express.js, React, Node.js, and blockchain technologies. I specialize in creating scalable and secure applications, focusing on clean code and seamless integration of front-end and back-end components. My expertise extends to RESTful API development, real-time applications, and decentralized applications (dApps). From concept to deployment, I contribute to the entire development lifecycle, staying current with the latest trends in both the MERN stack and Web3 ecosystems.
         </p>
       </div>
     </div>
